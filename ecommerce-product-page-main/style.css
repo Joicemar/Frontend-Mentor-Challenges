@@ -38,6 +38,7 @@ button {
     --Light_grayish_blue: hsl(223, 64%, 98%);
     --White: hsl(0, 0%, 100%);
     --Black: hsl(0, 0%, 0%);
+    --back_color:#F6F8FC;
     --size_paragraph: 16px;
     --font_family: "Kumbh Sans", sans-serif;
     --font_poppins: "Poppins", sans-serif;
@@ -57,6 +58,7 @@ body {
     flex-direction: column;
     padding-inline: clamp(20px, 4vw, 50px);
     background-color: var(--Light_grayish_blue);
+    background-color: var(--back_color);
 }
 
 .container {
@@ -68,7 +70,7 @@ body {
     top: 0;
     width: 100%;
     max-width: 1200px;
-    height: 130px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
